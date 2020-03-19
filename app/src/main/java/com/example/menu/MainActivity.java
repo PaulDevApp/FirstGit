@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String s = "git";
+
         mTextView = findViewById(R.id.tv_hello);
         mButton = findViewById(R.id.b_ok);
 
